@@ -1,6 +1,8 @@
 # InforMange
 
 ###########环境依赖
+
+Java Web
 MySQL 8.0.16
 IDEA
 tomcat
