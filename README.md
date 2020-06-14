@@ -1,19 +1,39 @@
 # InforMange
 
-###########环境依赖
+### 适用性描述
+适合用于课程设计或毕业设计的`JavaWeb`项目
 
-Java Web
-MySQL 8.0.16
-IDEA
-tomcat
 
-###########部署步骤
-1. 确保安装MySQL数据库，导入sql文件，在test_web包下面 database.sql
-2. 部署tomcat
-3. 运行之后，点击“服务”会自动跳转到登陆界面
-	（在没有登陆的情况下，登陆之后会自动跳转到管理页面）
-4. 登陆的用户名字和密码：
-	  username : Alworm
-	  password : 123
+### 功能介绍
 
+* 用户信息管理
+* URL拦截器
+* 管理员登陆
+* 用户的CRUD
+
+### 环境依赖
+
+* Tomcat 8.5.31
+* `MySQL` 8.0.16
+* IDEA
+
+### 使用技术
+`jsp`,`BootStrap`, `jQuery`, `druid`,`servlet`
+
+### 项目部署
+
+1. 在`cmd` 中输入 
+    `mysql -uroot -p yourpassword`
+
+  进入数据库, 复制test_web 包下面的 `database.sql` 中的内容
+
+  在`cmd`中粘贴
+
+2. 导入成功后,修改 `test_web/src/druid.properties`中的`username`和`password`为你自己的数据库的用户名和密码
+
+3. 运行测试
+
+4. 点击服务可以跳转到功能界面, 
+	`username` : `Alworm`
+	`password` : `123`
 
