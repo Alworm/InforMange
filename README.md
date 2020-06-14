@@ -16,6 +16,7 @@
 * Tomcat 8.5.31
 * `MySQL` 8.0.16
 * IDEA
+* Windows 10
 
 ### 使用技术
 `jsp`,`BootStrap`, `jQuery`, `druid`,`servlet`
