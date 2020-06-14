@@ -23,11 +23,7 @@
 ### 项目部署
 
 1. 在`cmd` 中输入 
-    `mysql -uroot -p yourpassword`
-
-  进入数据库, 复制test_web 包下面的 `database.sql` 中的内容
-
-  在`cmd`中粘贴
+    `mysql -uroot -p yourpassword` 进入数据库, 复制test_web 包下面的 `database.sql` 中的内容在`cmd`中粘贴
 
 2. 导入成功后,修改 `test_web/src/druid.properties`中的`username`和`password`为你自己的数据库的用户名和密码
 
